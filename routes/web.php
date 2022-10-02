@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+use Ozdemir\VueFinder\VueFinder;
 use League\Flysystem\Local\LocalFilesystemAdapter;
 use League\Flysystem\ReadOnly\ReadOnlyFilesystemAdapter;
 
@@ -12,7 +13,7 @@ Route::get('/', function () {
 
 Route::any('/vuefinder', function() {
 
-    $vuefinder = new \Ozdemir\Vuefinder\Vuefinder([
+    $vuefinder = new VueFinder([
         'local' => new ReadOnlyFilesystemAdapter(Storage::disk('local')->getAdapter()),
         'media' =>  new ReadOnlyFilesystemAdapter(new  LocalFilesystemAdapter(dirname(__DIR__).'/storage/app/media/')),
     ]);
