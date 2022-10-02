@@ -1,0 +1,37 @@
+{
+  "resources/js/app.js": {
+    "file": "assets/app.da9804bf.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/vuefinder/dist/en.4dabcb3e.js",
+      "node_modules/vuefinder/dist/tr.f45cbe8b.js",
+      "resources/js/Pages/Welcome.vue"
+    ],
+    "css": [
+      "assets/app.efcc902c.css"
+    ]
+  },
+  "resources/js/Pages/Welcome.vue": {
+    "file": "assets/Welcome.2ea8cdec.js",
+    "src": "resources/js/Pages/Welcome.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "node_modules/vuefinder/dist/en.4dabcb3e.js": {
+    "file": "assets/en.4dabcb3e.913df194.js",
+    "src": "node_modules/vuefinder/dist/en.4dabcb3e.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/tr.f45cbe8b.js": {
+    "file": "assets/tr.f45cbe8b.8694c235.js",
+    "src": "node_modules/vuefinder/dist/tr.f45cbe8b.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.efcc902c.css",
+    "src": "resources/js/app.css"
+  }
+}
