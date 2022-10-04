@@ -2302,16 +2302,16 @@
         },
         {
             "name": "ozdemir/vuefinder-php",
-            "version": "1.0.3",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/n1crack/vuefinder-php.git",
-                "reference": "a4e285196e357e8d5f09ea2ae8a2ab45aced4cec"
+                "reference": "d7a3fc0625c3a56755b9afae5ccee3922a6109cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/n1crack/vuefinder-php/zipball/a4e285196e357e8d5f09ea2ae8a2ab45aced4cec",
-                "reference": "a4e285196e357e8d5f09ea2ae8a2ab45aced4cec",
+                "url": "https://api.github.com/repos/n1crack/vuefinder-php/zipball/d7a3fc0625c3a56755b9afae5ccee3922a6109cf",
+                "reference": "d7a3fc0625c3a56755b9afae5ccee3922a6109cf",
                 "shasum": ""
             },
             "require": {
@@ -2323,7 +2323,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Ozdemir\\Vuefinder\\": "src/"
+                    "Ozdemir\\VueFinder\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2339,9 +2339,9 @@
             "description": "Vuefinder Php Library.",
             "support": {
                 "issues": "https://github.com/n1crack/vuefinder-php/issues",
-                "source": "https://github.com/n1crack/vuefinder-php/tree/1.0.3"
+                "source": "https://github.com/n1crack/vuefinder-php/tree/1.0.6"
             },
-            "time": "2022-09-27T19:44:09+00:00"
+            "time": "2022-10-02T15:50:28+00:00"
         },
         {
             "name": "phpoption/phpoption",
