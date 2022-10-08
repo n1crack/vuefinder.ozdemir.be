@@ -1,6 +1,6 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app.361c79d7.js",
+    "file": "assets/app.312f491e.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
@@ -10,11 +10,11 @@
       "resources/js/Pages/Welcome.vue"
     ],
     "css": [
-      "assets/app.05524d3c.css"
+      "assets/app.ca67fd59.css"
     ]
   },
   "resources/js/Pages/Welcome.vue": {
-    "file": "assets/Welcome.cf171d56.js",
+    "file": "assets/Welcome.bc3d33d2.js",
     "src": "resources/js/Pages/Welcome.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -37,7 +37,7 @@
     "isDynamicEntry": true
   },
   "resources/js/app.css": {
-    "file": "assets/app.05524d3c.css",
+    "file": "assets/app.ca67fd59.css",
     "src": "resources/js/app.css"
   }
 }
