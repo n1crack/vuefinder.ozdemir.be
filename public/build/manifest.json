@@ -1,29 +1,29 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app.49d98b84.js",
+    "file": "assets/app.3a00a1a9.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
-      "node_modules/vuefinder/dist/en.7a04810c.js",
+      "node_modules/vuefinder/dist/en.70efd54a.js",
       "node_modules/vuefinder/dist/ru.8dbff4f2.js",
-      "node_modules/vuefinder/dist/tr.818dacaf.js",
+      "node_modules/vuefinder/dist/tr.78307c97.js",
       "resources/js/Pages/Welcome.vue"
     ],
     "css": [
-      "assets/app.477f1682.css"
+      "assets/app.dfe172e5.css"
     ]
   },
   "resources/js/Pages/Welcome.vue": {
-    "file": "assets/Welcome.d2873afd.js",
+    "file": "assets/Welcome.8f29c630.js",
     "src": "resources/js/Pages/Welcome.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "node_modules/vuefinder/dist/en.7a04810c.js": {
-    "file": "assets/en.7a04810c.e6a5add1.js",
-    "src": "node_modules/vuefinder/dist/en.7a04810c.js",
+  "node_modules/vuefinder/dist/en.70efd54a.js": {
+    "file": "assets/en.70efd54a.98086d52.js",
+    "src": "node_modules/vuefinder/dist/en.70efd54a.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/ru.8dbff4f2.js": {
@@ -31,13 +31,13 @@
     "src": "node_modules/vuefinder/dist/ru.8dbff4f2.js",
     "isDynamicEntry": true
   },
-  "node_modules/vuefinder/dist/tr.818dacaf.js": {
-    "file": "assets/tr.818dacaf.be96468f.js",
-    "src": "node_modules/vuefinder/dist/tr.818dacaf.js",
+  "node_modules/vuefinder/dist/tr.78307c97.js": {
+    "file": "assets/tr.78307c97.813cf97a.js",
+    "src": "node_modules/vuefinder/dist/tr.78307c97.js",
     "isDynamicEntry": true
   },
   "resources/js/app.css": {
-    "file": "assets/app.477f1682.css",
+    "file": "assets/app.dfe172e5.css",
     "src": "resources/js/app.css"
   }
 }
