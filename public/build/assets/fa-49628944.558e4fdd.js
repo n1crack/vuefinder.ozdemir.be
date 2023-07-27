@@ -1,4 +1,4 @@
-const u=`{
+const e=`{
   "Language": "\u0632\u0628\u0627\u0646",
   "Create": "\u0627\u06CC\u062C\u0627\u062F",
   "Close": "\u0628\u0633\u062A\u0646",
@@ -66,4 +66,4 @@ const u=`{
   "Drag&Drop: off": "Drag&Drop: \u062E\u0627\u0645\u0648\u0634",
   "The selected file exceeds the maximum file size. You cannot upload files greater than %s": "\u062D\u062F\u0627\u06A9\u062B\u0631 \u0638\u0631\u0641\u06CC\u062A \u0645\u062C\u0627\u0632 \u0641\u0627\u06CC\u0644 %s \u0645\u06CC\u0628\u0627\u0634\u062F! \u0641\u0627\u06CC\u0644 \u0634\u0645\u0627 \u0628\u0632\u0631\u06AF\u062A\u0631 \u0627\u0632 \u0627\u06CC\u0646 \u0645\u0642\u062F\u0627\u0631 \u0645\u06CC\u0628\u0627\u0634\u062F."
 }
-`;export{u as default};
+`;export{e as default};

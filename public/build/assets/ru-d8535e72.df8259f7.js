@@ -1,4 +1,4 @@
-const u=`{
+const e=`{
   "Language": "\u042F\u0437\u044B\u043A",
   "Create": "\u0421\u043E\u0437\u0434\u0430\u0442\u044C",
   "Close": "\u0417\u0430\u043A\u0440\u044B\u0442\u044C",
@@ -65,4 +65,4 @@ const u=`{
   "Drag&Drop: on": "Drag&Drop: on",
   "Drag&Drop: off": "Drag&Drop: off"
 }
-`;export{u as default};
+`;export{e as default};
