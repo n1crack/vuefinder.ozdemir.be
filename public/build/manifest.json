@@ -1,32 +1,34 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app.38c4ba68.js",
+    "file": "assets/app.bfdbfba6.js",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
-      "node_modules/vuefinder/dist/de-fb9aa6a3.js",
+      "node_modules/vuefinder/dist/de-81b457a7.js",
       "node_modules/vuefinder/dist/en-ed1f1848.js",
       "node_modules/vuefinder/dist/fa-49628944.js",
       "node_modules/vuefinder/dist/he-736e9ea8.js",
+      "node_modules/vuefinder/dist/hi-a0031fe7.js",
       "node_modules/vuefinder/dist/ru-d8535e72.js",
+      "node_modules/vuefinder/dist/sv-316febc7.js",
       "node_modules/vuefinder/dist/tr-6f9ffcfe.js",
       "resources/js/Pages/Welcome.vue"
     ],
     "css": [
-      "assets/app.666a7ba6.css"
+      "assets/app.2751adfb.css"
     ]
   },
   "resources/js/Pages/Welcome.vue": {
-    "file": "assets/Welcome.6abbd434.js",
+    "file": "assets/Welcome.4642f927.js",
     "src": "resources/js/Pages/Welcome.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.js"
     ]
   },
-  "node_modules/vuefinder/dist/de-fb9aa6a3.js": {
-    "file": "assets/de-fb9aa6a3.f6cf68cf.js",
-    "src": "node_modules/vuefinder/dist/de-fb9aa6a3.js",
+  "node_modules/vuefinder/dist/de-81b457a7.js": {
+    "file": "assets/de-81b457a7.51c4031d.js",
+    "src": "node_modules/vuefinder/dist/de-81b457a7.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/en-ed1f1848.js": {
@@ -44,9 +46,19 @@
     "src": "node_modules/vuefinder/dist/he-736e9ea8.js",
     "isDynamicEntry": true
   },
+  "node_modules/vuefinder/dist/hi-a0031fe7.js": {
+    "file": "assets/hi-a0031fe7.a60fb6ce.js",
+    "src": "node_modules/vuefinder/dist/hi-a0031fe7.js",
+    "isDynamicEntry": true
+  },
   "node_modules/vuefinder/dist/ru-d8535e72.js": {
     "file": "assets/ru-d8535e72.df8259f7.js",
     "src": "node_modules/vuefinder/dist/ru-d8535e72.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/sv-316febc7.js": {
+    "file": "assets/sv-316febc7.d168c9db.js",
+    "src": "node_modules/vuefinder/dist/sv-316febc7.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/tr-6f9ffcfe.js": {
@@ -55,7 +67,7 @@
     "isDynamicEntry": true
   },
   "resources/js/app.css": {
-    "file": "assets/app.666a7ba6.css",
+    "file": "assets/app.2751adfb.css",
     "src": "resources/js/app.css"
   }
 }

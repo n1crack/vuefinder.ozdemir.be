@@ -49,7 +49,7 @@ const e=`{
     "Are you sure you want to delete these files?": "Sind Sie sicher, dass Sie diese Dateien l\xF6schen m\xF6chten?",
     "This action cannot be undone.": "Diese Aktion kann nicht r\xFCckg\xE4ngig gemacht werden.",
     "Search results for": "Suchergebnisse f\xFCr",
-    "item(s) selected.": "Artikel ausgew\xE4hlt.",
+    "item(s) selected.": "Element(e) ausgew\xE4hlt.",
     "%s is renamed.": "%s wurde umbenannt.",
     "This is a readonly storage.": "Dies ist ein schreibgesch\xFCtzter Speicher.",
     "%s is created.": "%s wurde erstellt.",
