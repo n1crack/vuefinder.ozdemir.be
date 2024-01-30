@@ -1,71 +1,77 @@
 {
-  "node_modules/vuefinder/dist/de-3f6147f5.js": {
+  "../vuefinder/dist/de-3f6147f5.js": {
     "file": "assets/de-3f6147f5-Heg6nZc5.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/de-3f6147f5.js"
+    "src": "../vuefinder/dist/de-3f6147f5.js"
   },
-  "node_modules/vuefinder/dist/en-ffed8966.js": {
+  "../vuefinder/dist/en-ffed8966.js": {
     "file": "assets/en-ffed8966-Nq8SDcU9.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/en-ffed8966.js"
+    "src": "../vuefinder/dist/en-ffed8966.js"
   },
-  "node_modules/vuefinder/dist/fa-7534f880.js": {
+  "../vuefinder/dist/fa-7534f880.js": {
     "file": "assets/fa-7534f880-SdLvJ6Wc.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/fa-7534f880.js"
+    "src": "../vuefinder/dist/fa-7534f880.js"
   },
-  "node_modules/vuefinder/dist/he-1978fb6e.js": {
+  "../vuefinder/dist/fr-d570774a.js": {
+    "file": "assets/fr-d570774a-ge92mrIb.js",
+    "isDynamicEntry": true,
+    "src": "../vuefinder/dist/fr-d570774a.js"
+  },
+  "../vuefinder/dist/he-1978fb6e.js": {
     "file": "assets/he-1978fb6e-AnllDzmF.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/he-1978fb6e.js"
+    "src": "../vuefinder/dist/he-1978fb6e.js"
   },
-  "node_modules/vuefinder/dist/hi-ffd5a2ba.js": {
+  "../vuefinder/dist/hi-ffd5a2ba.js": {
     "file": "assets/hi-ffd5a2ba-s9ULxe0G.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/hi-ffd5a2ba.js"
+    "src": "../vuefinder/dist/hi-ffd5a2ba.js"
   },
-  "node_modules/vuefinder/dist/ru-9f317caf.js": {
+  "../vuefinder/dist/ru-9f317caf.js": {
     "file": "assets/ru-9f317caf-VyhmGP5r.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/ru-9f317caf.js"
+    "src": "../vuefinder/dist/ru-9f317caf.js"
   },
-  "node_modules/vuefinder/dist/sv-07e3c393.js": {
+  "../vuefinder/dist/sv-07e3c393.js": {
     "file": "assets/sv-07e3c393-2a9FGkij.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/sv-07e3c393.js"
+    "src": "../vuefinder/dist/sv-07e3c393.js"
   },
-  "node_modules/vuefinder/dist/tr-ce32e2ae.js": {
+  "../vuefinder/dist/tr-ce32e2ae.js": {
     "file": "assets/tr-ce32e2ae-snIM08qJ.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/tr-ce32e2ae.js"
+    "src": "../vuefinder/dist/tr-ce32e2ae.js"
   },
-  "node_modules/vuefinder/dist/zhCN-9b524820.js": {
-    "file": "assets/zhCN-9b524820-SYQ-jJyB.js",
+  "../vuefinder/dist/zhCN-040643d9.js": {
+    "file": "assets/zhCN-040643d9-Q_DQTcKn.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/zhCN-9b524820.js"
+    "src": "../vuefinder/dist/zhCN-040643d9.js"
   },
-  "node_modules/vuefinder/dist/zhTW-a803434e.js": {
-    "file": "assets/zhTW-a803434e-LM1j-zz2.js",
+  "../vuefinder/dist/zhTW-4aa25a91.js": {
+    "file": "assets/zhTW-4aa25a91-MqPLdf5O.js",
     "isDynamicEntry": true,
-    "src": "node_modules/vuefinder/dist/zhTW-a803434e.js"
+    "src": "../vuefinder/dist/zhTW-4aa25a91.js"
   },
   "resources/js/app.js": {
     "css": [
-      "assets/app-ua8815zC.css"
+      "assets/app-5DxX7mgi.css"
     ],
     "dynamicImports": [
-      "node_modules/vuefinder/dist/de-3f6147f5.js",
-      "node_modules/vuefinder/dist/en-ffed8966.js",
-      "node_modules/vuefinder/dist/fa-7534f880.js",
-      "node_modules/vuefinder/dist/he-1978fb6e.js",
-      "node_modules/vuefinder/dist/hi-ffd5a2ba.js",
-      "node_modules/vuefinder/dist/ru-9f317caf.js",
-      "node_modules/vuefinder/dist/sv-07e3c393.js",
-      "node_modules/vuefinder/dist/tr-ce32e2ae.js",
-      "node_modules/vuefinder/dist/zhCN-9b524820.js",
-      "node_modules/vuefinder/dist/zhTW-a803434e.js"
+      "../vuefinder/dist/de-3f6147f5.js",
+      "../vuefinder/dist/en-ffed8966.js",
+      "../vuefinder/dist/fa-7534f880.js",
+      "../vuefinder/dist/fr-d570774a.js",
+      "../vuefinder/dist/he-1978fb6e.js",
+      "../vuefinder/dist/hi-ffd5a2ba.js",
+      "../vuefinder/dist/ru-9f317caf.js",
+      "../vuefinder/dist/sv-07e3c393.js",
+      "../vuefinder/dist/tr-ce32e2ae.js",
+      "../vuefinder/dist/zhCN-040643d9.js",
+      "../vuefinder/dist/zhTW-4aa25a91.js"
     ],
-    "file": "assets/app-IVCJ-YH0.js",
+    "file": "assets/app-8tMXveS8.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }

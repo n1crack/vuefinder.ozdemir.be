@@ -11,7 +11,7 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^2.8",
         "laravel/tinker": "^2.7",
-        "ozdemir/vuefinder-php": "^1.0",
+        "ozdemir/vuefinder-php": "^2.0",
         "tightenco/ziggy": "^1.0"
     },
     "require-dev": {

@@ -19,6 +19,6 @@
     },
     "dependencies": {
         "@inertiajs/vue3": "^1.0.14",
-        "vuefinder": "^1.0.6"
+        "vuefinder": "^2.0.0"
     }
 }

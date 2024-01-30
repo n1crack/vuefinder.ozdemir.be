@@ -15,12 +15,12 @@ Route::any('/vuefinder', function() {
 
     $vuefinder = new VueFinder([
         'local' => new ReadOnlyFilesystemAdapter(Storage::disk('local')->getAdapter()),
-        'media' =>  new ReadOnlyFilesystemAdapter(new  LocalFilesystemAdapter(dirname(__DIR__).'/storage/app/media/')),
+        'media' =>  new ReadOnlyFilesystemAdapter(new  LocalFilesystemAdapter(dirname(__DIR__).'/storage/app/public/media/')),
     ]);
 
     $config = [
         'publicLinks' => [
-            'local://public' => 'http://example.test',
+            'local://public/media' => url('/storage/media'),
         ]
     ];
 

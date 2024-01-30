@@ -13,7 +13,7 @@ import { Head } from '@inertiajs/vue3'
                 <a class="mx-3 text-emerald-500" href="https://www.npmjs.com/package/vuefinder">Npm</a>
             </div>
 
-            <vue-finder id="vf" url="/vuefinder"></vue-finder>
+            <vue-finder id="vf" request="/vuefinder"></vue-finder>
         </div>
     </div>
 </template>

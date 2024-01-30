@@ -5,11 +5,11 @@ import {createApp, h} from 'vue'
 import {createInertiaApp} from '@inertiajs/vue3'
 import {ZiggyVue} from '../../vendor/tightenco/ziggy/dist/vue.m';
 
-// import '../../../vuefinder/dist/style.css'
-// import VueFinder from '../../../vuefinder/dist/vuefinder.js'
+import '../../../vuefinder/dist/style.css'
+import VueFinder from '../../../vuefinder/dist/vuefinder.js'
 
-import 'vuefinder/dist/style.css'
-import VueFinder from "vuefinder"
+// import 'vuefinder/dist/style.css'
+// import VueFinder from "vuefinder"
 
 const appName = window.document.getElementsByTagName('title')[0]?.innerText || 'Laravel';
 
