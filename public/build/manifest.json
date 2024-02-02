@@ -1,77 +1,77 @@
 {
-  "../vuefinder/dist/de-3f6147f5.js": {
-    "file": "assets/de-3f6147f5-Heg6nZc5.js",
+  "node_modules/vuefinder/dist/locales/de.js": {
+    "file": "assets/de-pn0IcjXA.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/de-3f6147f5.js"
+    "src": "node_modules/vuefinder/dist/locales/de.js"
   },
-  "../vuefinder/dist/en-ffed8966.js": {
-    "file": "assets/en-ffed8966-Nq8SDcU9.js",
+  "node_modules/vuefinder/dist/locales/en.js": {
+    "file": "assets/en-RTDZWp1D.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/en-ffed8966.js"
+    "src": "node_modules/vuefinder/dist/locales/en.js"
   },
-  "../vuefinder/dist/fa-7534f880.js": {
-    "file": "assets/fa-7534f880-SdLvJ6Wc.js",
+  "node_modules/vuefinder/dist/locales/fa.js": {
+    "file": "assets/fa-S3vk4QCQ.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/fa-7534f880.js"
+    "src": "node_modules/vuefinder/dist/locales/fa.js"
   },
-  "../vuefinder/dist/fr-d570774a.js": {
-    "file": "assets/fr-d570774a-ge92mrIb.js",
+  "node_modules/vuefinder/dist/locales/fr.js": {
+    "file": "assets/fr-CBvX4sud.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/fr-d570774a.js"
+    "src": "node_modules/vuefinder/dist/locales/fr.js"
   },
-  "../vuefinder/dist/he-1978fb6e.js": {
-    "file": "assets/he-1978fb6e-AnllDzmF.js",
+  "node_modules/vuefinder/dist/locales/he.js": {
+    "file": "assets/he-R7O-VGDo.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/he-1978fb6e.js"
+    "src": "node_modules/vuefinder/dist/locales/he.js"
   },
-  "../vuefinder/dist/hi-ffd5a2ba.js": {
-    "file": "assets/hi-ffd5a2ba-s9ULxe0G.js",
+  "node_modules/vuefinder/dist/locales/hi.js": {
+    "file": "assets/hi-uwF36-59.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/hi-ffd5a2ba.js"
+    "src": "node_modules/vuefinder/dist/locales/hi.js"
   },
-  "../vuefinder/dist/ru-9f317caf.js": {
-    "file": "assets/ru-9f317caf-VyhmGP5r.js",
+  "node_modules/vuefinder/dist/locales/ru.js": {
+    "file": "assets/ru-_RG754X2.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/ru-9f317caf.js"
+    "src": "node_modules/vuefinder/dist/locales/ru.js"
   },
-  "../vuefinder/dist/sv-07e3c393.js": {
-    "file": "assets/sv-07e3c393-2a9FGkij.js",
+  "node_modules/vuefinder/dist/locales/sv.js": {
+    "file": "assets/sv-EEf0XbwX.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/sv-07e3c393.js"
+    "src": "node_modules/vuefinder/dist/locales/sv.js"
   },
-  "../vuefinder/dist/tr-ce32e2ae.js": {
-    "file": "assets/tr-ce32e2ae-snIM08qJ.js",
+  "node_modules/vuefinder/dist/locales/tr.js": {
+    "file": "assets/tr-xa9Vjewc.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/tr-ce32e2ae.js"
+    "src": "node_modules/vuefinder/dist/locales/tr.js"
   },
-  "../vuefinder/dist/zhCN-040643d9.js": {
-    "file": "assets/zhCN-040643d9-Q_DQTcKn.js",
+  "node_modules/vuefinder/dist/locales/zhCN.js": {
+    "file": "assets/zhCN-5GBjSGyL.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/zhCN-040643d9.js"
+    "src": "node_modules/vuefinder/dist/locales/zhCN.js"
   },
-  "../vuefinder/dist/zhTW-4aa25a91.js": {
-    "file": "assets/zhTW-4aa25a91-MqPLdf5O.js",
+  "node_modules/vuefinder/dist/locales/zhTW.js": {
+    "file": "assets/zhTW-FMj49J11.js",
     "isDynamicEntry": true,
-    "src": "../vuefinder/dist/zhTW-4aa25a91.js"
+    "src": "node_modules/vuefinder/dist/locales/zhTW.js"
   },
   "resources/js/app.js": {
     "css": [
-      "assets/app-5DxX7mgi.css"
+      "assets/app-n-ylFKlF.css"
     ],
     "dynamicImports": [
-      "../vuefinder/dist/de-3f6147f5.js",
-      "../vuefinder/dist/en-ffed8966.js",
-      "../vuefinder/dist/fa-7534f880.js",
-      "../vuefinder/dist/fr-d570774a.js",
-      "../vuefinder/dist/he-1978fb6e.js",
-      "../vuefinder/dist/hi-ffd5a2ba.js",
-      "../vuefinder/dist/ru-9f317caf.js",
-      "../vuefinder/dist/sv-07e3c393.js",
-      "../vuefinder/dist/tr-ce32e2ae.js",
-      "../vuefinder/dist/zhCN-040643d9.js",
-      "../vuefinder/dist/zhTW-4aa25a91.js"
+      "node_modules/vuefinder/dist/locales/en.js",
+      "node_modules/vuefinder/dist/locales/fr.js",
+      "node_modules/vuefinder/dist/locales/de.js",
+      "node_modules/vuefinder/dist/locales/fa.js",
+      "node_modules/vuefinder/dist/locales/he.js",
+      "node_modules/vuefinder/dist/locales/hi.js",
+      "node_modules/vuefinder/dist/locales/ru.js",
+      "node_modules/vuefinder/dist/locales/sv.js",
+      "node_modules/vuefinder/dist/locales/tr.js",
+      "node_modules/vuefinder/dist/locales/zhCN.js",
+      "node_modules/vuefinder/dist/locales/zhTW.js"
     ],
-    "file": "assets/app-8tMXveS8.js",
+    "file": "assets/app-KC9gZyr_.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
