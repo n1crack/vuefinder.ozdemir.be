@@ -56,7 +56,7 @@
   },
   "resources/js/app.js": {
     "css": [
-      "assets/app-n-ylFKlF.css"
+      "assets/app-3yIvdlpi.css"
     ],
     "dynamicImports": [
       "node_modules/vuefinder/dist/locales/en.js",
@@ -71,7 +71,7 @@
       "node_modules/vuefinder/dist/locales/zhCN.js",
       "node_modules/vuefinder/dist/locales/zhTW.js"
     ],
-    "file": "assets/app-UI3h2ufL.js",
+    "file": "assets/app-6kpbzPYC.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   }
