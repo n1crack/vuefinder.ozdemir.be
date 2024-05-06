@@ -1,72 +1,72 @@
 {
   "node_modules/vuefinder/dist/locales/de.js": {
-    "file": "assets/de-BU0RiscL.js",
+    "file": "assets/de-BlUYSYjf.js",
     "name": "de",
     "src": "node_modules/vuefinder/dist/locales/de.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/en.js": {
-    "file": "assets/en-vb0JlNfs.js",
+    "file": "assets/en-DtjIZiAA.js",
     "name": "en",
     "src": "node_modules/vuefinder/dist/locales/en.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/fa.js": {
-    "file": "assets/fa-XhaDqygJ.js",
+    "file": "assets/fa-BNxxJfi8.js",
     "name": "fa",
     "src": "node_modules/vuefinder/dist/locales/fa.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/fr.js": {
-    "file": "assets/fr-DhdDgFTd.js",
+    "file": "assets/fr-CtdV2M2H.js",
     "name": "fr",
     "src": "node_modules/vuefinder/dist/locales/fr.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/he.js": {
-    "file": "assets/he-Ck_Hv-aZ.js",
+    "file": "assets/he-is67WMJK.js",
     "name": "he",
     "src": "node_modules/vuefinder/dist/locales/he.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/hi.js": {
-    "file": "assets/hi-tCkFfT29.js",
+    "file": "assets/hi-BDbiZwh9.js",
     "name": "hi",
     "src": "node_modules/vuefinder/dist/locales/hi.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/ru.js": {
-    "file": "assets/ru-LRiUD3EQ.js",
+    "file": "assets/ru-DJOg2ve4.js",
     "name": "ru",
     "src": "node_modules/vuefinder/dist/locales/ru.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/sv.js": {
-    "file": "assets/sv-DM0HOboR.js",
+    "file": "assets/sv-BVzvs89s.js",
     "name": "sv",
     "src": "node_modules/vuefinder/dist/locales/sv.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/tr.js": {
-    "file": "assets/tr-DPdCXpBt.js",
+    "file": "assets/tr-C5apM7fB.js",
     "name": "tr",
     "src": "node_modules/vuefinder/dist/locales/tr.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/zhCN.js": {
-    "file": "assets/zhCN-B2tIArPA.js",
+    "file": "assets/zhCN-l-doPM5X.js",
     "name": "zhCN",
     "src": "node_modules/vuefinder/dist/locales/zhCN.js",
     "isDynamicEntry": true
   },
   "node_modules/vuefinder/dist/locales/zhTW.js": {
-    "file": "assets/zhTW-13vmuxc-.js",
+    "file": "assets/zhTW-CYvVsNL9.js",
     "name": "zhTW",
     "src": "node_modules/vuefinder/dist/locales/zhTW.js",
     "isDynamicEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-D_WXpcnB.js",
+    "file": "assets/app-CF5Kj_4_.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -84,7 +84,7 @@
       "node_modules/vuefinder/dist/locales/zhTW.js"
     ],
     "css": [
-      "assets/app--tbfUZCq.css"
+      "assets/app-BBdJ1GS8.css"
     ]
   }
 }
