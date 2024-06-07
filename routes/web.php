@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Str;
 use Inertia\Inertia;
 
 use Ozdemir\VueFinder\VueFinder;
@@ -8,7 +9,12 @@ use League\Flysystem\Local\LocalFilesystemAdapter;
 use League\Flysystem\ReadOnly\ReadOnlyFilesystemAdapter;
 
 Route::get('/', function () {
-    return Inertia::render('Welcome');
+    return Inertia::render('Home');
+});
+
+Route::get('/examples/{example?}', function ($example = null) {
+    $example ??= 'Basic';
+    return Inertia::render('Examples/'. str($example)->title()->replace('-', ''));
 });
 
 Route::any('/vuefinder', function() {

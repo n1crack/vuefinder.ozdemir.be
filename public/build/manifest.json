@@ -1,4 +1,10 @@
 {
+  "node_modules/github-buttons/dist/buttons.esm.js": {
+    "file": "assets/buttons.esm-Bog6bH3O.js",
+    "name": "buttons.esm",
+    "src": "node_modules/github-buttons/dist/buttons.esm.js",
+    "isDynamicEntry": true
+  },
   "node_modules/vuefinder/dist/locales/de.js": {
     "file": "assets/de-CJPe9Vi1.js",
     "name": "de",
@@ -66,11 +72,12 @@
     "isDynamicEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-8STOfvfN.js",
+    "file": "assets/app-C_QM4DLJ.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "dynamicImports": [
+      "node_modules/github-buttons/dist/buttons.esm.js",
       "node_modules/vuefinder/dist/locales/en.js",
       "node_modules/vuefinder/dist/locales/fr.js",
       "node_modules/vuefinder/dist/locales/de.js",
@@ -84,7 +91,7 @@
       "node_modules/vuefinder/dist/locales/zhTW.js"
     ],
     "css": [
-      "assets/app-k5Pkao5c.css"
+      "assets/app-CKl2sVzj.css"
     ]
   }
 }
