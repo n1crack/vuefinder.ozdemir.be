@@ -24,7 +24,7 @@ const handleSelectEvent = (selection) => {
                 </div>
 
                 <div class="text-gray-700 dark:text-gray-200 p-3 my-3 border-l-2 border-amber-600 ">
-                    This is an example of VueFinder with a select event. It will display the file and folder structure of the server and allow the user to select a file or folder. The selected files will be displayed below.
+                    This is an example of VueFinder with a select event. When a file or folder is selected, the select event will be triggered and the selected files will be displayed below.
                 </div>
                 <div
                     class="my-3 p-2 rounded text-gray-700 bg-gray-200 dark:bg-gray-800/30 dark:text-slate-400 font-bold text-xl text-left">
