@@ -9,7 +9,7 @@ import GithubButton from 'vue-github-button'
             If you like this library, please consider giving it a star on Github or sponsoring the project.
         </div>
 
-        <div class="text-center space-x-3">
+        <div class="text-center space-x-3 pb-6">
 
             <github-button href="https://github.com/n1crack/vuefinder"
                            data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star"

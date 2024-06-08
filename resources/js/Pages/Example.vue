@@ -8,7 +8,7 @@ import Header from "@/Partials/Header.vue";
 <template>
     <Head title="Vuefinder File Manager Example" />
     <div class=" h-screen flex items-top justify-center  sm:pt-0">
-        <div class="w-full sm:px-10">
+        <div class="w-full sm:px-10 pt-5">
 
             <Header />
 
