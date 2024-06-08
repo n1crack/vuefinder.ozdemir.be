@@ -7,7 +7,7 @@ import Example from "@/Pages/Example.vue";
 
 <template>
     <Example>
-        <div class="grid sm:grid-cols-6 gap-4">
+        <div class="grid sm:grid-cols-6 grid-cols-1 gap-4">
             <div class="col-span-1">
                 <Nav current="basic"/>
             </div>
