@@ -14,6 +14,10 @@ const handleSelectButton = {
     // handle click event
     click: (items, event) => {
         selection.value = items;
+
+        if (items.length) {
+            alert('Selected: ' + JSON.stringify(items[0], null, 4))
+        }
     }
 }
 </script>
@@ -44,7 +48,12 @@ const handleSelectButton = {
     multiple: false,
     // handle click event
     click: (items, event) => {
+
         selection.value = items;
+
+        if (items.length) {
+            alert('Selected: ' + items[0].name)
+        }
     }
 }
 &lt;/script&gt;
