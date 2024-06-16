@@ -1,0 +1,97 @@
+{
+  "node_modules/github-buttons/dist/buttons.esm.js": {
+    "file": "assets/buttons.esm-Bog6bH3O.js",
+    "name": "buttons.esm",
+    "src": "node_modules/github-buttons/dist/buttons.esm.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/de.js": {
+    "file": "assets/de-8tlftAQc.js",
+    "name": "de",
+    "src": "node_modules/vuefinder/dist/locales/de.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/en.js": {
+    "file": "assets/en-bOLdJ0Mx.js",
+    "name": "en",
+    "src": "node_modules/vuefinder/dist/locales/en.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/fa.js": {
+    "file": "assets/fa-BWa3l6mC.js",
+    "name": "fa",
+    "src": "node_modules/vuefinder/dist/locales/fa.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/fr.js": {
+    "file": "assets/fr-CwfnGARy.js",
+    "name": "fr",
+    "src": "node_modules/vuefinder/dist/locales/fr.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/he.js": {
+    "file": "assets/he-CSgw2Kx1.js",
+    "name": "he",
+    "src": "node_modules/vuefinder/dist/locales/he.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/hi.js": {
+    "file": "assets/hi-Cx6D_YR2.js",
+    "name": "hi",
+    "src": "node_modules/vuefinder/dist/locales/hi.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/ru.js": {
+    "file": "assets/ru-DPEM9Fwi.js",
+    "name": "ru",
+    "src": "node_modules/vuefinder/dist/locales/ru.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/sv.js": {
+    "file": "assets/sv-CO0Y8I2Z.js",
+    "name": "sv",
+    "src": "node_modules/vuefinder/dist/locales/sv.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/tr.js": {
+    "file": "assets/tr-BQbL4WGp.js",
+    "name": "tr",
+    "src": "node_modules/vuefinder/dist/locales/tr.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/zhCN.js": {
+    "file": "assets/zhCN-wqKeyZFz.js",
+    "name": "zhCN",
+    "src": "node_modules/vuefinder/dist/locales/zhCN.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/vuefinder/dist/locales/zhTW.js": {
+    "file": "assets/zhTW-DU5LuWT2.js",
+    "name": "zhTW",
+    "src": "node_modules/vuefinder/dist/locales/zhTW.js",
+    "isDynamicEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-FNmbLbtI.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "node_modules/github-buttons/dist/buttons.esm.js",
+      "node_modules/vuefinder/dist/locales/en.js",
+      "node_modules/vuefinder/dist/locales/fr.js",
+      "node_modules/vuefinder/dist/locales/de.js",
+      "node_modules/vuefinder/dist/locales/fa.js",
+      "node_modules/vuefinder/dist/locales/he.js",
+      "node_modules/vuefinder/dist/locales/hi.js",
+      "node_modules/vuefinder/dist/locales/ru.js",
+      "node_modules/vuefinder/dist/locales/sv.js",
+      "node_modules/vuefinder/dist/locales/tr.js",
+      "node_modules/vuefinder/dist/locales/zhCN.js",
+      "node_modules/vuefinder/dist/locales/zhTW.js"
+    ],
+    "css": [
+      "assets/app-0nsLK23j.css"
+    ]
+  }
+}
