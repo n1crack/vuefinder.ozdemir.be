@@ -72,7 +72,7 @@
     "isDynamicEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-Ci0hsSOt.js",
+    "file": "assets/app-D68n9yli.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -91,7 +91,7 @@
       "node_modules/vuefinder/dist/locales/zhTW.js"
     ],
     "css": [
-      "assets/app-gOvBAnU9.css"
+      "assets/app-9dpgF91_.css"
     ]
   }
 }
