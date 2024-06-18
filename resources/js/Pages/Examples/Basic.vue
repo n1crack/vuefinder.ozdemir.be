@@ -3,6 +3,7 @@ import { Head } from '@inertiajs/vue3'
 import Nav from "@/Partials/Nav.vue";
 import Footer from "@/Partials/Footer.vue";
 import Example from "@/Pages/Example.vue";
+import HtmlCode from "@/Components/HtmlCode.vue";
 </script>
 
 <template>
@@ -20,9 +21,9 @@ import Example from "@/Pages/Example.vue";
                     This is a basic example of VueFinder. It will display the file and folder structure of the server.
                 </div>
 
-                <div class="mt-3 p-5 rounded text-gray-700 bg-gray-200 dark:bg-gray-800/30 dark:text-slate-400 font-bold text-xl text-left p-2">
-                    &lt;vue-finder id="vf" request="/vuefinder" /&gt;
-                </div>
+                <HtmlCode>{{
+                    `<vue-finder id="vf" request="/vuefinder"></vue-finder>`
+                }}</HtmlCode>
             </div>
         </div>
     </Example>

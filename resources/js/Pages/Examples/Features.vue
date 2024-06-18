@@ -1,27 +1,13 @@
 <script setup>
 import Nav from "@/Partials/Nav.vue";
 import Example from "@/Pages/Example.vue";
-
-const FEATURE = {
-    EDIT: 'edit',
-    NEW_FILE: 'newfile',
-    NEW_FOLDER: 'newfolder',
-    PREVIEW: 'preview',
-    ARCHIVE: 'archive',
-    UNARCHIVE: 'unarchive',
-    SEARCH: 'search',
-    RENAME: 'rename',
-    UPLOAD: 'upload',
-    DELETE: 'delete',
-    FULL_SCREEN: 'fullscreen',
-    DOWNLOAD: 'download',
-    LANGUAGE: 'language',
-}
+import HtmlCode from "@/Components/HtmlCode.vue";
+import {FEATURES} from "vuefinder/dist/features.js";
 
 const ENABLED_FEATURES = [
-   FEATURE.NEW_FILE,
-   FEATURE.NEW_FOLDER,
-   FEATURE.PREVIEW,
+   FEATURES.NEW_FILE,
+   FEATURES.NEW_FOLDER,
+   FEATURES.PREVIEW,
 ]
 
 </script>
@@ -41,39 +27,23 @@ const ENABLED_FEATURES = [
                     You can enable or disable features of VueFinder by passing an array of features to the features prop.
                 </div>
 
-                <div class="mt-3 p-5 rounded text-gray-700 bg-gray-200 dark:bg-gray-800/30 dark:text-slate-400 font-bold text-xl text-left p-2">
-<pre class="text-sm overflow-auto">
-&lt;script setup&gt;
-const FEATURE = {
-    EDIT: 'edit',
-    NEW_FILE: 'newfile',
-    NEW_FOLDER: 'newfolder',
-    PREVIEW: 'preview',
-    ARCHIVE: 'archive',
-    UNARCHIVE: 'unarchive',
-    SEARCH: 'search',
-    RENAME: 'rename',
-    UPLOAD: 'upload',
-    DELETE: 'delete',
-    FULL_SCREEN: 'fullscreen',
-    DOWNLOAD: 'download',
-    LANGUAGE: 'language',
-}
+                <HtmlCode>{{
+`<script setup>
+import {FEATURES} from "vuefinder/dist/features.js";
 
 const ENABLED_FEATURES = [
-   FEATURE.NEW_FILE,
-   FEATURE.NEW_FOLDER,
-   FEATURE.PREVIEW,
+   FEATURES.NEW_FILE,
+   FEATURES.NEW_FOLDER,
+   FEATURES.PREVIEW,
 ]
 
-&lt;/script&gt;
+</script>
+<template>
+    <vue-finder id="vf" request="/vuefinder" :features="ENABLED_FEATURES"> </vue-finder>
+</template>
+`
+                }}</HtmlCode>
 
-&lt;template&gt;
-
-    &lt;vue-finder id="vf" request="/vuefinder" :features="ENABLED_FEATURES"/&gt;
-&lt;/template&gt;
-</pre>
-                </div>
             </div>
         </div>
     </Example>

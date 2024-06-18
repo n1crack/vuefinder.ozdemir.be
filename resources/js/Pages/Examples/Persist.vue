@@ -3,6 +3,7 @@ import { Head } from '@inertiajs/vue3'
 import Nav from "@/Partials/Nav.vue";
 import Footer from "@/Partials/Footer.vue";
 import Example from "@/Pages/Example.vue";
+import HtmlCode from "@/Components/HtmlCode.vue";
 </script>
 
 <template>
@@ -18,9 +19,7 @@ import Example from "@/Pages/Example.vue";
                 <div class="text-gray-700 dark:text-gray-200 p-3 my-3 border-l-2 border-amber-600 ">
                     This is an example of VueFinder with persistence enabled. It will remember the last opened folder and will open it when the component is reloaded.
                 </div>
-                <div class="mt-3 p-5 rounded text-gray-700 bg-gray-200 dark:bg-gray-800/30 dark:text-slate-400 font-bold text-xl text-left p-2">
-                    &lt;vue-finder id="vf" request="/vuefinder" persist /&gt;
-                </div>
+                <HtmlCode>{{`<vue-finder id="vf" request="/vuefinder" persist />` }}</HtmlCode>
             </div>
         </div>
     </Example>

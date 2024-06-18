@@ -2,6 +2,7 @@
 import Nav from "@/Partials/Nav.vue";
 import Example from "@/Pages/Example.vue";
 import {ref} from "vue";
+import HtmlCode from "@/Components/HtmlCode.vue";
 
 
 const selectedFiles = ref([]);
@@ -26,24 +27,22 @@ const handleSelectEvent = (selection) => {
                 <div class="text-gray-700 dark:text-gray-200 p-3 my-3 border-l-2 border-amber-600 ">
                     This is an example of VueFinder with a select event. When a file or folder is selected, the select event will be triggered and the selected files will be displayed below.
                 </div>
-                <div
-                    class="my-3 p-2 rounded text-gray-700 bg-gray-200 dark:bg-gray-800/30 dark:text-slate-400 font-bold text-xl text-left">
-<pre class="text-sm overflow-auto">
-&lt;script setup&gt;
+                <HtmlCode>{{
+`<script setup>
+import {ref} from "vue";
 const selectedFiles = ref([]);
 
 const handleSelectEvent = (selection) => {
     selectedFiles.value = selection;
 }
-&lt;/script&gt;
+</script>
+<template>
+    <vue-finder id="vf" request="/vuefinder" @select="handleSelectEvent"/>
 
-&lt;template&gt;
-    &lt;vue-finder id="vf" request="/vuefinder" @select="handleSelectEvent"/&gt;
-
-    &lt;pre&gt;&#123;&#123; JSON.stringify(selectedFiles, null, 4) &#125;&#125;&lt;/pre&gt;
-&lt;/template&gt;
-</pre>
-</div>
+    <pre>&#123;&#123; JSON.stringify(selection, null, 4) &#125;&#125;</pre>
+</template>
+`
+                }}</HtmlCode>
             <pre class="text-gray-700 dark:text-slate-200 dark:bg-gray-800/30 p-3 text-sm overflow-auto">{{ JSON.stringify(selectedFiles, null, 4) }}</pre>
             </div>
         </div>

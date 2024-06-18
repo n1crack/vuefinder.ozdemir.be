@@ -24,5 +24,6 @@ const navigation = [
   { name: 'Persist', href: '/examples/persist', current: props.current === 'persist' },
   { name: 'Features', href: '/examples/features', current: props.current === 'features' },
   { name: 'Path', href: '/examples/path', current: props.current === 'path' },
+  { name: 'Theme', href: '/examples/theme', current: props.current === 'theme' },
 ]
 </script>

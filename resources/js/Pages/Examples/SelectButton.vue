@@ -2,6 +2,7 @@
 import Nav from "@/Partials/Nav.vue";
 import Example from "@/Pages/Example.vue";
 import {ref} from "vue";
+import HtmlCode from "@/Components/HtmlCode.vue";
 
 
 const selection = ref({});
@@ -35,10 +36,9 @@ const handleSelectButton = {
                 <div class="text-gray-700 dark:text-gray-200 p-3 my-3 border-l-2 border-amber-600 ">
                     This is an example of VueFinder with a select button. It allows the user to select a file or folder.
                 </div>
-                <div
-                    class="my-3 p-2 rounded text-gray-700 bg-gray-200 dark:bg-gray-800/30 dark:text-slate-400 font-bold text-xl text-left">
-<pre class="text-sm overflow-auto">
-&lt;script setup&gt;
+                <HtmlCode>{{
+`<script setup>
+import {ref} from "vue";
 const selection = ref({});
 
 const handleSelectButton = {
@@ -56,16 +56,17 @@ const handleSelectButton = {
         }
     }
 }
-&lt;/script&gt;
+</script>
+<template>
+    <vue-finder id="vf" request="/vuefinder" @select="handleSelectEvent"/>
 
-&lt;template&gt;
-    &lt;vue-finder id="vf" request="/vuefinder" :select-button="handleSelectButton" /&gt;
+    <pre>&#123;&#123; JSON.stringify(selection, null, 4) &#125;&#125;</pre>
+</template>
+`
+                }}</HtmlCode>
 
-    &lt;pre&gt;&#123;&#123; JSON.stringify(selection, null, 4) &#125;&#125;&lt;/pre&gt;
-&lt;/template&gt;
-</pre>
-</div>
             <pre class="text-gray-700 dark:text-slate-200 dark:bg-gray-800/30 p-3 text-sm overflow-auto">{{ JSON.stringify(selection, null, 4) }}</pre>
+
             </div>
         </div>
     </Example>
