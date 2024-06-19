@@ -39,7 +39,7 @@ const handleSelectEvent = (selection) => {
 <template>
     <vue-finder id="vf" request="/vuefinder" @select="handleSelectEvent"/>
 
-    <pre>&#123;&#123; JSON.stringify(selection, null, 4) &#125;&#125;</pre>
+    <pre>&#123;&#123; JSON.stringify(selectedFiles, null, 4) &#125;&#125;</pre>
 </template>
 `
                 }}</HtmlCode>
