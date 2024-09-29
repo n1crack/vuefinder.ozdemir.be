@@ -25,6 +25,7 @@ createInertiaApp({
             .use(VueFinder,
                 {
                     i18n: {
+                        ar:  () =>    import ("vuefinder/dist/locales/ar.js"),
                         en:  () =>    import ("vuefinder/dist/locales/en.js"),
                         fr:  () =>    import ("vuefinder/dist/locales/fr.js"),
                         de:  () =>    import ("vuefinder/dist/locales/de.js"),
