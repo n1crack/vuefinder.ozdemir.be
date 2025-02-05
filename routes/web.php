@@ -17,7 +17,7 @@ Route::get('/examples/{example?}', function ($example = null) {
     return Inertia::render('Examples/'. str($example)->title()->replace('-', ''));
 });
 
-Route::any('/vuefinder', function() {
+Route::any('/vuefinder', function(): void {
 
     $vuefinder = new VueFinder([
         'local' => new ReadOnlyFilesystemAdapter(Storage::disk('local')->getAdapter()),

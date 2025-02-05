@@ -1,6 +1,6 @@
 {
   "node_modules/github-buttons/dist/buttons.esm.js": {
-    "file": "assets/buttons.esm-CUWjhgaJ.js",
+    "file": "assets/buttons.esm-DK2fWHEW.js",
     "name": "buttons.esm",
     "src": "node_modules/github-buttons/dist/buttons.esm.js",
     "isDynamicEntry": true
@@ -78,7 +78,7 @@
     "isDynamicEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-CMe0clAN.js",
+    "file": "assets/app-P-h1F0F2.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -98,7 +98,7 @@
       "node_modules/vuefinder/dist/locales/zhTW.js"
     ],
     "css": [
-      "assets/app-Y6ZSZAqe.css"
+      "assets/app-BJOuzCSr.css"
     ]
   }
 }
