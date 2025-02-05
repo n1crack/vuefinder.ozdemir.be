@@ -47,6 +47,12 @@
     "src": "node_modules/vuefinder/dist/locales/hi.js",
     "isDynamicEntry": true
   },
+  "node_modules/vuefinder/dist/locales/nl.js": {
+    "file": "assets/nl-DRUKIaon.js",
+    "name": "nl",
+    "src": "node_modules/vuefinder/dist/locales/nl.js",
+    "isDynamicEntry": true
+  },
   "node_modules/vuefinder/dist/locales/ru.js": {
     "file": "assets/ru-CH1T_Uo6.js",
     "name": "ru",
@@ -78,7 +84,7 @@
     "isDynamicEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-P-h1F0F2.js",
+    "file": "assets/app-trW0S-Dc.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
@@ -91,6 +97,7 @@
       "node_modules/vuefinder/dist/locales/fa.js",
       "node_modules/vuefinder/dist/locales/he.js",
       "node_modules/vuefinder/dist/locales/hi.js",
+      "node_modules/vuefinder/dist/locales/nl.js",
       "node_modules/vuefinder/dist/locales/ru.js",
       "node_modules/vuefinder/dist/locales/sv.js",
       "node_modules/vuefinder/dist/locales/tr.js",
@@ -98,7 +105,7 @@
       "node_modules/vuefinder/dist/locales/zhTW.js"
     ],
     "css": [
-      "assets/app-BJOuzCSr.css"
+      "assets/app-CFYkjnYh.css"
     ]
   }
 }
